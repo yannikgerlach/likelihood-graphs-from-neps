@@ -2,20 +2,6 @@
 This repository contains a prototype implementation of the method described in the paper *Inferring A Multi-Perspective Likelihood Graph from Black-Box Next Event Predictors*.
 The method infers a directed and acyclic likelihood graph from a (deep learning) next event predictor to reveal and visualize what it has learned.
 
-## Abstract
-Deep learning models for next event prediction in predictive process monitoring have shown significant performance improvements over conventional methods.
-However, they are often criticized for being black-box models.
-Without allowing analysts to understand what such models have learned, it is difficult to establish trust in their abilities.
-
-In this work, we propose a technique to infer a likelihood graph from a next event predictor to capture and visualize its behavior.
-Our approach first generates complete cases, including event attributes, using the next event predictor. 
-From this set of cases, a multi-perspective likelihood graph is inferred.
-Including event attributes in the graph allows to better understand the learned decision and branching points within a process.
-
-The evaluation shows the inferred graphs generalize beyond the event log and achieve high F-scores and small likelihood deviations.
-We conclude black-box NEPs can be used to generate correct cases even in the presence of anomalies in the event log.
-As a result, our visualization technique, which represents exactly this set of cases, shows what the NEP has learned, thus mitigating one of their biggest criticisms.
-
 ## Example Likelihood Graphs
 The following example likelihood graph was generated using our approach. More can be found in `/examples`.
 
