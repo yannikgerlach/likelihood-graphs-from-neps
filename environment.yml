@@ -1,0 +1,33 @@
+name: neplg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - h5py
+  - joblib
+  - lxml
+  - matplotlib
+  - networkx
+  - numpy=1.19.5
+  - openpyxl
+  - pandas
+  - pip
+  - pyodbc
+  - scikit-learn
+  - scipy
+  - jupyterlab
+  - seaborn
+  - xlrd
+  - ipywidgets
+  - tensorflow=2.3.0
+  - pygraphviz
+  - tqdm
+  - arrow
+  - editdistance
+  - pip:
+      - flask
+      - hmmlearn
+      - pydot
+      - sqlalchemy==1.2.10
+      - untangle
