@@ -322,7 +322,7 @@ def evaluate(name, dataset, ground_truth_process_model, inference_result):
     evaluation_results['dataset'] = dataset.dataset_name
     evaluation_results['next event predictor'] = inference_result.next_event_predictor
     evaluation_results['group attribute nodes'] = inference_result.group_attribute_nodes
-    evaluation_results['next event threshold'] = inference_result.next_event_threshold
+    evaluation_results['next event threshold'] = str(inference_result.next_event_threshold)
 
     evaluation_results.to_csv(EVALUATION_DIR / f'{name}.csv')
 

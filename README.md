@@ -17,7 +17,7 @@ The easiest way to setup an environment is to use Miniconda.
 ### Using Miniconda
 1. Install [Miniconda](https://conda.io/miniconda.html).
 2. After setting up miniconda you can make use of the `conda` command in your command line (Powershell, CMD, Bash).
-3. We suggest that you set up a dedicated environment for this project by running `conda env create -f environment.yml`
+3. Set up a dedicated environment for this project by running `conda env create -f environment.yml`
     * This will setup a virtual conda environment with all necessary dependencies.
     * Installs the CPU only version of Tensorflow. 
 4. Depending on your operating system you can activate the virtual environment with `conda activate neplg`.
