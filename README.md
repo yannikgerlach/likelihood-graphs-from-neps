@@ -3,7 +3,8 @@ This repository contains a prototype implementation of the method described in t
 The method infers a directed and acyclic likelihood graph from a (deep learning) next event predictor to reveal and visualize what it has learned.
 
 ## Example Likelihood Graphs
-The following example likelihood graph was generated using our approach. More can be found in `/examples`.
+The following likelihood graph was generated using our approach. 
+Red nodes represent activities, yellow nodes the event attribute *user*. More examples can be found in `/examples`.
 
 ![](examples/small.jpg)
 
